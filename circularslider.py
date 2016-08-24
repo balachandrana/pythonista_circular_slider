@@ -42,7 +42,7 @@ class CircularSlider(ui.View):
             self.image.draw(-.5+2*btn_siz, -.5+2*btn_siz, 1-4*btn_siz, 1-4*btn_siz)
         #rotate by angle
         ui.concat_ctm(ui.Transform.rotation(self.a))
-        ui.set_color('#1aa1b5')
+        ui.set_color(self.tint_color if self.tint_color else '#1aa1b5')
         arc = ui.Path()
         arc.move_to(.5-btn_siz, 0)
         ang = -(self.a+pi)
