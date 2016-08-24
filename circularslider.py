@@ -72,15 +72,5 @@ class CircularSlider(ui.View):
 
                 
 if __name__ == '__main__':
-    ''' _use_theme = False
-    w = h = 600
-    f = (0, 0, w, h)
-    mc = MyClass(frame=f, bg_color='white', name='Silly Demo')
-    
-    if not _use_theme:
-        mc.present('sheet', animated=False)
-    else:
-        editor.present_themed(mc, theme_name='Oceanic', style='sheet',
-                              animated=False)'''
     cs = CircularSlider(frame=(0,0,500, 500),bg_color='white')
     cs.present('sheet')
