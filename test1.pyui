@@ -1,0 +1,49 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {413, 390}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Slider",
+        "attributes" : {
+          "flex" : "W",
+          "name" : "slider1",
+          "continuous" : true,
+          "value" : 0.5,
+          "action" : "slider_action",
+          "class" : "Slider",
+          "frame" : "{{107, 178}, {200, 34}}",
+          "uuid" : "29E3F232-497D-4DF8-8C8D-179846184683"
+        },
+        "frame" : "{{64, 324}, {292, 34}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "View",
+        "attributes" : {
+          "class" : "View",
+          "name" : "view1",
+          "uuid" : "FC786BE6-D709-4031-AA17-B1043531A8C8",
+          "frame" : "{{157, 145}, {100, 100}}",
+          "custom_class" : "CircularSlider"
+        },
+        "frame" : "{{78, 54}, {250, 248}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
